@@ -65,7 +65,7 @@ call emcc ^
   -I ..\include ^
   libavif.a ^
   libavif_internal.a ^
-  C:\Users\Sputchik\aom\aom-wasm-install\lib\libaom.a ^
+  ..\..\aom\aom-wasm-install\lib\libaom.a ^
   -O3 -pthread -msimd128 ^
   -s WASM=1 ^
   -s USE_PTHREADS=1 ^
