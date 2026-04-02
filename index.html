@@ -731,9 +731,7 @@
   let currentFile = null;
   let originalBlobUrl = null;
 
-  const supportsPthreads =
-    self.crossOriginIsolated &&
-    typeof SharedArrayBuffer === 'function';
+  const supportsPthreads = typeof SharedArrayBuffer === 'function';
 
   /* ── Toast ── */
   function showToast(msg, isError = false, duration = 3000) {
